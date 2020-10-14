@@ -17,7 +17,9 @@ if ! command yay --noconfirm &> /dev/null
 then
     git clone https://aur.archlinux.org/yay.git
     cd yay
-    makepkg -si
+sed -e 's/\s*\([\+0-9a-zA-Z]*\).*/\1/' << EOF | makepkg -si
+  Y
+EOF
     cd ..
     rm -rf yay
 fi
