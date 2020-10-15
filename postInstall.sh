@@ -1,4 +1,5 @@
 #!/bin/bash
+#! not working
 # Author: hibrit
 # Purpose: setting up a freshly installed arch linux instance
 # Date Created: 20/09/2020
@@ -28,7 +29,7 @@ fi
 echo 'Installing some essential packages through yay and pacman'
 sudo pacman -S --needed --noconfirm alacritty zsh fzf thefuck plasma kde-applications xorg xorg-server xorx-xinit
 
-yay -S --needed --noconfirm visual-studio-code-bin brave-bin mint-themes bibata-cursor-theme ruby-colorls ookla-speedtest-bin
+yay -S --needed --noconfirm visual-studio-code-bin brave-bin bibata-cursor-theme ruby-colorls ookla-speedtest-bin
 
 # fonts
 echo 'Installing necessary fonts'
