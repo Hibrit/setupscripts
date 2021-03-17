@@ -1,4 +1,4 @@
-#! before running this script please run minimal_setup_script and then open vs code atleast once
+#! before running this script please run minimal_setup_script and then open vs code atleast once!
 
 #* installing default extensions of vs code
 
